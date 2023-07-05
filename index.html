@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>World Temperature</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://unpkg.com/topojson@3.0.2/dist/topojson.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+  </head>
+  <body>
+    <h1 id='title'>Global Warming Dashboard</h1>
+    <br>
+    <h1 id='title'>Average Temperature Heat Map</h1>
+    <br>
+    <svg width="960" height="500"></svg>
+    <br>
+    <br>
+    <h1 id='title'>Average Land Temperature for Each Country</h1>
+    <br>
+    <svg id="line-chart" width="1000" height="300"></svg>
+    <br>
+    <h1 id='title'>Average Land Temperature in the world</h1>
+    <br>
+    <div id='root'></div>
+<br>
+<h1 id='title'>A List of different Average Land Temperatures</h1>
+    <svg id="bar-chart" width="1000" height="700"></svg>
+    <script src="./js/map_and_line.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/bar.js"></script>
+    
+  </body>
+</html>
